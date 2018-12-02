@@ -8,6 +8,7 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -25,7 +26,8 @@ public class BikesRentalController {
 	private BikePackageService bikePackageService;
 	
 	@PostMapping(value="/rentBikes")
-	public ResponseEntity<Double> rentBikes(List<BikePackage> bikePackages) throws BikesRentalException{
+	public ResponseEntity<Double> rentBikes(@RequestBody List<BikePackage> bikePackages) throws BikesRentalException{
+		System.out.println("asdsadsa");
 		Double finalP =bikePackageService.calculteFinalPackage(bikePackages);
 		return new ResponseEntity<>(Double.valueOf(finalP), HttpStatus.OK);
 	}
