@@ -1,11 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.example.fdv.bikes.BikePackageServiceTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.386 sec <<< FAILURE! - in com.example.fdv.bikes.BikePackageServiceTest
-calculteFinalPackageTest(com.example.fdv.bikes.BikePackageServiceTest)  Time elapsed: 0.062 sec  <<< ERROR!
-java.lang.NullPointerException: null
-	at com.fdv.bikes.service.impl.BikePackageServiceImpl.lambda$0(BikePackageServiceImpl.java:43)
-	at java.util.ArrayList.forEach(ArrayList.java:1257)
-	at com.fdv.bikes.service.impl.BikePackageServiceImpl.calculteFinalPackage(BikePackageServiceImpl.java:39)
-	at com.example.fdv.bikes.BikePackageServiceTest.calculteFinalPackageTest(BikePackageServiceTest.java:49)
-
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.388 sec - in com.example.fdv.bikes.BikePackageServiceTest
