@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: BikesRental
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: sotol
+Implementation-Vendor-Id: com.fdv.bikes
+Build-Jdk: 1.8.0_191
+Implementation-URL: http://projects.spring.io/spring-boot/BikesRental/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+

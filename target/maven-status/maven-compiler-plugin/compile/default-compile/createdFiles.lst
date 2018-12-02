@@ -1,0 +1,13 @@
+com\fdv\bikes\exception\BikesRentalException.class
+com\fdv\bikes\config\Context.class
+com\fdv\bikes\enums\RentalPeriod.class
+com\fdv\bikes\service\impl\WeekPackageImpl.class
+com\fdv\bikes\service\PackagePeriodStrategyService.class
+com\fdv\bikes\model\BikePackage.class
+com\fdv\bikes\service\BikePackageService.class
+com\fdv\bikes\service\impl\DaysPackageImpl.class
+com\fdv\bikes\controller\BikesRentalController.class
+com\fdv\bikes\service\impl\HourPackageImpl.class
+com\fdv\bikes\BikesRentalApplication.class
+com\fdv\bikes\service\impl\BikePackageServiceImpl.class
+com\fdv\bikes\model\Bike.class
